@@ -34,7 +34,7 @@ export async function autoreger (email, headers, password, repassword, password_
        await sleep(6000)
        let token = await IMAP(email, password_email, proxy)
        console.log(token)
-       await redirect_login(headers, token)
+       // await redirect_login(headers, token)
        return cookie
    } else if (response.status !== 201) {
        throw await response.json()

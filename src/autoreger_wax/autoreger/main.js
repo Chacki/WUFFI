@@ -22,6 +22,6 @@ async function autoreger_wax (email, password, password_email, proxy) {
     let ses = await session(email, password, reger, headers, proxy)
     let address = await get_address(reger, headers, proxy)
     let account_wax = address.info_acc.account
-
+    console.log(account_wax)
 }
-autoreger_wax('chertopolox999120@outlook.com', 'zalPasdgasf124dsa+g', 'jioipoas214sa', 'http://gXvAGygp:JCBqyXTZ@138.124.111.33:62564')
+autoreger_wax('fauspatron_2000@outlook.com', 'zalPasdgasf124dsa+g', 'jioipoas214sa', 'http://gXvAGygp:JCBqyXTZ@138.124.111.33:62564')

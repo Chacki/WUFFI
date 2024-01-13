@@ -24,4 +24,4 @@ async function login (email, password_email, password_wax, headers, proxy) {
     return  await approve(headers, ses.cookie, ses.info_acc)
 }
 
-console.log(await login('chertopolox999120@outlook.com', 'jioipoas214sa', 'zalPasdgasf124dsa+g', headers, proxy))
+console.log(await login('fauspatron_2000@outlook.com', 'jioipoas214sa', 'zalPasdgasf124dsa+g', headers, proxy))
