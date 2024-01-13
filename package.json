@@ -1,0 +1,19 @@
+{
+  "name": "wuffi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ccxt": "^4.2.12",
+    "https-proxy-agent": "^7.0.2",
+    "imapflow": "^1.0.147",
+    "node-fetch": "^3.3.2"
+  }
+}
