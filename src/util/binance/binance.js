@@ -2,8 +2,8 @@ import ccxt from "ccxt";
 // import "dotenv/config.js";
 
 
-let binance_key = 'b9BgSe2ZAEuGyNQbQ589QMcyWGWlJR1DAU9uHSY7iUsOhpbs5mjwKX3PudR8KsFV'
-let binance_secret = '0rO04iAXdrJgrpKqcd9RNoFxviMBgB4woxX9Yx7UyjrfB0Fs1WvAxST4bSJU0vPG'
+let binance_key = 'b9BgSe2ZAEuGyNQbQ589QMcyWGWlJR1DAU9uHSY7iUsOhpbs5mjwKX3P'
+let binance_secret = '0rO04iAXdrJgrpKqcd9RNoFxviMBgB4woxX9Yx7UyjrfB0Fs1WvAxST4bS'
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
